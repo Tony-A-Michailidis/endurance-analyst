@@ -8,7 +8,7 @@ Most Garmin analysis tooling is single-sport. That produces a specific failure: 
 cyclist who occasionally runs looks like a *detrained runner*, because 50 hours of
 cycling are invisible to a running-only view. This project treats the athlete as
 one aerobic system and reports volume in **hours rather than kilometres**, since
-distance is not comparable across sports.
+distance is not comparable across sports. 
 
 ## Contents
 
