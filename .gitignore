@@ -5,6 +5,15 @@ data/
 *.tcx
 *.fit
 
+# ...except the synthetic demo export, which contains no real data.
+!sample_Activities.csv
+
+# Generated reports carry the same personal health data as the export.
+*.html
+
+# Windows "downloaded from the internet" alternate data streams.
+*:Zone.Identifier
+
 # Python
 __pycache__/
 *.py[cod]
