@@ -914,8 +914,8 @@ def build(df, args):
           f"which is a strap or pairing failure rather than an easy day. "
           f"{', '.join(str(y) for y in sorted(bad_years))} "
           f"{'is' if len(bad_years) == 1 else 'are'} excluded from efficiency "
-          f"trends, and load for those sessions was scored from duration and "
-          f"training effect instead.</p>")
+          f"trends, and load for those sessions was scored from duration at "
+          f"your own typical intensity for that sport instead.</p>")
     else:
         a("<p><b>Heart rate looks clean.</b> No sustained sessions with "
           "implausibly low readings.</p>")
